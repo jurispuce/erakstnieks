@@ -1,29 +1,25 @@
 ---
 title: "eRakstnieks"
 description: "Drošs elektronisko dokumentu risinājums"
-featured_image: "/images/placeholder.svg"
+featured_image: "images/hero-background.jpg"
 ---
+
+# Elektronisko dokumentu risinājumi
 
 eRakstnieks ir vadošais elektronisko dokumentu parakstīšanas un piegādes pakalpojumu sniedzējs Dānijā un Benelux valstīs. Mēs nodrošinām augstākā līmeņa drošību un juridisko spēku dokumentu apritē.
 
 ## Mūsu priekšrocības
 
-* **Droša parakstīšana** - Atbilst visaugstākajiem drošības standartiem un ES regulām
-* **Ātra integrācija** - Vienkārša API un gatavi risinājumi ātrai ieviešanai
-* **24/7 Atbalsts** - Profesionāla komanda vienmēr gatava palīdzēt
+* **Droša parakstīšana** - Kvalificēts elektroniskais paraksts ar eIDAS sertifikāciju
+* **Ātra piegāde** - Tūlītēja un droša dokumentu piegāde
+* **24/7 pieejamība** - Nepārtraukta piekļuve sistēmai
+* **Vienkārša lietošana** - Intuitīva lietotāja saskarne
 
-## Risinājumi
+## Uzticami risinājumi
 
-### Dokumentu parakstīšana
+* ISO 27001 sertificēta drošības sistēma
+* Atbilstība GDPR prasībām
+* 99.9% sistēmas pieejamība
+* Datu centri Eiropas Savienībā
 
-* eID un Mobile-ID atbalsts
-* Vairāku parakstu atbalsts
-* Dokumentu validācija
-
-### Dokumentu piegāde
-
-* Droša piegāde
-* Piegādes apstiprinājumi
-* Automatizēta apstrāde
-
-[Uzzināt vairāk par pakalpojumiem](/erakstnieks/services/)
+[Uzzināt vairāk par mūsu pakalpojumiem →](/services)

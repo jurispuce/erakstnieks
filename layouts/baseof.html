@@ -4,14 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
-    <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
 </head>
 <body>
-    {{ partial "header.html" . }}
-    {{ partial "navigation.html" . }}
+    <header>
+        {{ partial "site-navigation.html" . }}
+    </header>
+    
+    {{ if .Params.featured_image }}
+    <div class="featured-image-wrapper">
+        <img src="{{ .Params.featured_image }}" alt="{{ .Title }}">
+    </div>
+    {{ end }}
+    
     <main>
-        {{ block "main" . }}{{ end }}
+        <div class="container">
+            {{ block "main" . }}{{ end }}
+        </div>
     </main>
-    {{ partial "footer.html" . }}
+    
+    <footer>
+        <div class="container">
+            {{ partial "footer.html" . }}
+        </div>
+    </footer>
 </body>
 </html>

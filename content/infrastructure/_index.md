@@ -1,7 +1,9 @@
 ---
-title: "Tehniskā infrastruktūra"
+title: "Infrastruktūra"
 date: 2024-01-01
 draft: false
+featured_image: "images/infrastructure-hero.jpg"
+description: "Mūsu drošā un uzticamā infrastruktūra"
 ---
 
 ### AWS mākoņa infrastruktūra

@@ -2,6 +2,8 @@
 title: "Apmācības"
 date: 2024-01-01
 draft: false
+featured_image: "images/training-hero.jpg"
+description: "Apgūstiet mūsu platformas iespējas"
 ---
 
 ### Apmācību programma

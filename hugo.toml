@@ -1,3 +1,27 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://jurispuce.github.io/erakstnieks/'
+languageCode = 'lv-LV'
+title = 'eRakstnieks - Elektronisko dokumentu risinājumi'
+theme = 'paper'
+
+
+[menu]
+  [[menu.main]]
+    name = "Par mums"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Pakalpojumi"
+    url = "/services/"
+    weight = 2
+  [[menu.main]]
+    name = "Infrastruktūra"
+    url = "/infrastructure/"
+    weight = 3
+  [[menu.main]]
+    name = "Apmācības"
+    url = "/training/"
+    weight = 4
+
+[params]
+  description = "Vadošais elektronisko dokumentu parakstīšanas un piegādes pakalpojumu sniedzējs"
+  author = "eRakstnieks SIA"

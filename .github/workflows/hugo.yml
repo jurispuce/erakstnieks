@@ -24,11 +24,22 @@ jobs:
     env:
       HUGO_VERSION: 0.121.1
     steps:
+      - name: Install Git
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y git
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: true
           fetch-depth: 0
+
+      - name: Update theme submodules
+        run: |
+          git submodule sync
+          git submodule update --init --recursive --force --remote
+          git submodule status
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -40,11 +51,13 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
 
-      - name: Install theme
+      - name: List theme contents
         run: |
-          git submodule init
-          git submodule update --recursive
-          
+          echo "Listing theme directory contents:"
+          ls -la themes/
+          echo "Listing Ananke theme contents:"
+          ls -la themes/ananke/
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production

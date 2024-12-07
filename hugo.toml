@@ -6,42 +6,36 @@ theme = 'ananke'
 
 [menu]
   [[menu.main]]
+    name = "Sākums"
+    url = "/"
+    weight = 1
+  [[menu.main]]
     name = "Par mums"
     url = "/about/"
-    weight = 1
+    weight = 2
   [[menu.main]]
     name = "Pakalpojumi"
     url = "/services/"
-    weight = 2
+    weight = 3
   [[menu.main]]
     name = "Infrastruktūra"
     url = "/infrastructure/"
-    weight = 3
+    weight = 4
   [[menu.main]]
     name = "Apmācības"
     url = "/training/"
-    weight = 4
+    weight = 5
 
 [params]
   description = "Vadošais elektronisko dokumentu parakstīšanas un piegādes pakalpojumu sniedzējs"
   author = "eRakstnieks SIA"
-  # Images will fallback to theme defaults if not present
-  favicon = ""
-  site_logo = ""
   background_color_class = "bg-navy"
-  featured_image = ""
+  featured_image = "/images/placeholder.svg"
+  site_logo = ""  # Simple string instead of nested structure
   recent_posts_number = 3
-  mainSections = ["services", "training"]
+  body_classes = "avenir bg-near-white"
+  post_content_classes = "avenir"
   custom_css = ["css/custom.css"]
   
-  # Social media links
-  facebook = ""
-  twitter = ""
-  linkedin = ""
-
   [params.featured]
     hide_featured_image = false
-    
-  [params.colors]
-    primary = "#0056b3"
-    secondary = "#6c757d"

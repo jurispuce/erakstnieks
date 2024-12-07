@@ -2,9 +2,7 @@
 title: "Par mums"
 date: 2024-01-01
 draft: false
-images:
-  - src: "/images/about-hero.jpg"
-    alt: "eRakstnieks komanda - profesionāļi elektronisko dokumentu risinājumu jomā"
+featured_image: "/images/placeholder.svg"
 menu:
   main:
     weight: 1

@@ -1,8 +1,8 @@
 baseURL = 'https://jurispuce.github.io/erakstnieks/'
 languageCode = 'lv-LV'
+defaultContentLanguage = 'lv'
 title = 'eRakstnieks - Elektronisko dokumentu risinājumi'
-theme = 'paper'
-
+theme = 'ananke'
 
 [menu]
   [[menu.main]]
@@ -25,3 +25,23 @@ theme = 'paper'
 [params]
   description = "Vadošais elektronisko dokumentu parakstīšanas un piegādes pakalpojumu sniedzējs"
   author = "eRakstnieks SIA"
+  # Images will fallback to theme defaults if not present
+  favicon = ""
+  site_logo = ""
+  background_color_class = "bg-navy"
+  featured_image = ""
+  recent_posts_number = 3
+  mainSections = ["services", "training"]
+  custom_css = ["css/custom.css"]
+  
+  # Social media links
+  facebook = ""
+  twitter = ""
+  linkedin = ""
+
+  [params.featured]
+    hide_featured_image = false
+    
+  [params.colors]
+    primary = "#0056b3"
+    secondary = "#6c757d"

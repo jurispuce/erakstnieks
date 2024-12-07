@@ -86,6 +86,46 @@ main {
     background-color: var(--background-color);
 }
 
+/* Content styles */
+article {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+article h1 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+article h2 {
+    color: var(--secondary-color);
+    margin: 1.5rem 0 1rem;
+    font-size: 1.5rem;
+}
+
+article a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color var(--transition-speed) ease;
+}
+
+article a:hover {
+    color: var(--secondary-color);
+}
+
+.list-item {
+    margin-bottom: 2rem;
+    transition: transform var(--transition-speed) ease;
+}
+
+.list-item:hover {
+    transform: translateY(-2px);
+}
+
 /* Footer styles */
 footer {
     background-color: var(--secondary-color);
